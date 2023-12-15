@@ -1,0 +1,7 @@
+server:
+  port: 8083
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgres://localhost:5432/webfluxsecurity
+    username: postgres
+    password: postgres
